@@ -1,6 +1,6 @@
+import Chessboard from 'chessboardjsx';
 import React from 'react';
 import './App.css';
-import { Chessboard } from './Chessboard';
 
 function App() {
   return (
@@ -18,7 +18,8 @@ function App() {
         >
           Learn React
         </a>
-        <Chessboard/>
+        <Chessboard id="ruyLopez" position={{ d1: "wP", a8: "bP", c8: "bP", e8: "bP", g8: "bP", b7: "bP", d7: "bP", f7: "bP", h7: "bP" }} />
+        
   
       </header>
     </div>
